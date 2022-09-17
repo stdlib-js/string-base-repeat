@@ -31,6 +31,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import repeat from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-repeat@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-repeat/tags). For example,
+
+```javascript
 import repeat from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-repeat@v0.0.2-deno/mod.js';
 ```
 
@@ -61,7 +66,7 @@ str = repeat( 'beep', 0 );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
-import repeat from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-repeat@v0.0.2-deno/mod.js';
+import repeat from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-repeat@deno/mod.js';
 
 var i;
 for ( i = 0; i < 100; i++ ) {
