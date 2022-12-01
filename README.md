@@ -24,30 +24,14 @@ limitations under the License.
 
 > Repeat a string a specified number of times and return the concatenated result.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/string-base-repeat
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var repeat = require( '@stdlib/string-base-repeat' );
+import repeat from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-repeat@deno/mod.js';
 ```
 
 #### repeat( str, n )
@@ -76,8 +60,8 @@ str = repeat( 'beep', 0 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var discreteUniform = require( '@stdlib/random-base-discrete-uniform' );
-var repeat = require( '@stdlib/string-base-repeat' );
+import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
+import repeat from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-repeat@deno/mod.js';
 
 var i;
 for ( i = 0; i < 100; i++ ) {
@@ -106,7 +90,7 @@ for ( i = 0; i < 100; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
