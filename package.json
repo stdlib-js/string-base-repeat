@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-base-repeat",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Repeat a string a specified number of times and return the concatenated result.",
   "license": "Apache-2.0",
   "author": {
